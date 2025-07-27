@@ -26,8 +26,7 @@ Users Dashboard — это приложение для управления сп
 1. **Клонировать репозиторий:**
 
 ```bash
-git clone https://github.com/your-username/t1_tasks.git
-cd t1_tasks
+git clone https://github.com/denla/t1_users_dashboard
 ```
 
 2. **Установить зависимости:**
@@ -36,8 +35,16 @@ cd t1_tasks
 npm install
 ```
 
-2. **Запустить:**
+3. **Запустить cервер:**
 
 ```bash
-npm run dev
+cd backend/forms-server
+npm run start
+```
+
+4. **Запустить клиент:**
+
+```bash
+cd frontend
+npm run run dev
 ```
