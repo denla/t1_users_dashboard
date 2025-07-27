@@ -28,22 +28,18 @@ Users Dashboard — это приложение для управления сп
 git clone https://github.com/denla/t1_users_dashboard
 ```
 
-2. **Установить зависимости:**
-
-```bash
-npm install
-```
-
-3. **Запустить cервер:**
+2. **Запустить cервер:**
 
 ```bash
 cd backend/forms-server
+npm install
 npm run start
 ```
 
-4. **Запустить клиент:**
+3. **Запустить клиент:**
 
 ```bash
 cd frontend
+npm install
 npm run run dev
 ```
